@@ -31,7 +31,7 @@
 
 <body>
 
-   <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -49,28 +49,11 @@
                      <li>
                             <a href="index.html">Início</a>
                         </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Curso <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                             <li>
-                                <a href="#perfil" data-toggle="tab">Perfil Profissional</a>
-                            </li>
-                            <li>
-                                <a href="laboratorios.html">Laboratórios</a>
-                            </li>
-                            <li>
-                                <a href="#planos" data-toggle="tab">Planos de Curso</a>
-                            </li>
-                            <li>
-                                <a href="#atuacao" data-toggle="tab">Atuação Profissional</a>
-                            </li>
-                            <li>
-                                <a href="#coordenacao" data-toggle="tab">Coordenação</a>
-                            </li>
-                        </ul>
-                    </li>
                     <li>
-                        <a href="docentes.php">Docentes</a>
+                            <a href="curso.html">Curso</a>
+                        </li>
+                    <li>
+                        <a href="docentes.html">Docentes</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projetos <b class="caret"></b></a>
@@ -141,49 +124,6 @@
             </div>
         </div>
         <!-- /.row -->
-
-        <!-- Contact Form -->
-        <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
-     
-        <div class="row">
-            <div class="col-md-8">
-                <h3>Envie-nos uma mensagem</h3>
-                <form name="sentMessage" id="contactForm" novalidate>
-                    <div class="control-group form-group">
-                        <div class="controls">
-                            <label>Nome:</label>
-                            <input type="text" class="form-control" id="name" required data-validation-required-message="Por favor, ensira seu nome!">
-                            <p class="help-block"></p>
-                        </div>
-                    </div>
-                    <div class="control-group form-group">
-                        <div class="controls">
-                            <label>Telefone:</label>
-                            <input type="tel" class="form-control" id="phone" required data-validation-required-message="Por favor, ensira seu telefone!">
-                        </div>
-                    </div>
-                    <div class="control-group form-group">
-                        <div class="controls">
-                            <label>Email:</label>
-                            <input type="email" class="form-control" id="email" required data-validation-required-message="Por favor, ensira seu email!">
-                        </div>
-                    </div>
-                    <div class="control-group form-group">
-                        <div class="controls">
-                            <label>Mensagem:</label>
-                            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Por favor, ensira sua mensagem!" maxlength="999" style="resize:none"></textarea>
-                        </div>
-                    </div>
-                    <div id="success"></div>
-                    <!-- For success/fail messages -->
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-                </form>
-            </div>
-
-        </div>
-
-        <!-- /.row -->
-
         <hr>
 
         <!-- Footer -->

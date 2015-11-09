@@ -1,2 +1,0 @@
-NOME: VARCHAR(50)
-DI	
