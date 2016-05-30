@@ -1,2 +1,5 @@
-# projens-automacao
-Projeto para o curso Técnico em Automação - Página do Curso
+# INFO Projens/Automação
+
+Projeto em parceria com o curso Técnico em Automação.
+Bolsista/Desenvolvedor: Davi Ferreira
+Owner: Maurício Ortiz (Automação)
