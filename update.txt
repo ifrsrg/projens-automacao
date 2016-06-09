@@ -1,0 +1,7 @@
+    Update de Desenvolvimento
+
+  Fiz alguns testes para treinar o Python,
+porém ainda não está implementado no projeto final.
+
+Trabalho concluido: 7%
+Dead End: ???
