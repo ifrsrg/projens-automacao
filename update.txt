@@ -1,7 +1,10 @@
     Update de Desenvolvimento
 
-  Fiz alguns testes para treinar o Python,
-porém ainda não está implementado no projeto final.
+  Hoje trabalhei na questão do JSON
+com Python, porém ainda deve ser melhorado
+e implementado no projeto final.
+  Confira as novas pastas e os novos testes
+em ".../testes/".
 
-Trabalho concluido: 7%
+Trabalho concluido: 9%
 Dead End: ???
