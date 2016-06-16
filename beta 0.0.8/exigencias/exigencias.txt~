@@ -1,0 +1,58 @@
+	Exigências ponto Tê Xis Tê
+
+  Deverá ser entregue ao bolsista/desenvolvedor
+os arquivos "log.txt" que sairão do Arduino da
+seguinda maneira:
+
+date:DD/MM/AAAA;temp:YY;umid:ZZZ;
+
+date é a data de tempo. 
+Não confunda data de dados com data de tempo.
+
+DD -> Dia
+Ex:
+05
+01
+30
+
+MM -> Mês
+Ex:
+05
+06
+12
+
+AAAA -> Ano
+Ex:
+2000
+2005
+2016
+
+; para EU separar depois.
+
+Relembrando: date:DD/MM/AAAA;temp:YY;umid:ZZZ;
+temp -> Temperatura
+YY -> Digitos
+Ex:
+01
+15
+12
+
+umid -> Umidade
+ZZZ -> Digitos
+Ex:
+001
+100
+080
+
+Veja um exemplo de tudo isso:
+
+date:15/06/2016;temp:05;umid:100;
+date:16/06/2016;temp:14;umid:082;
+date:17/06/2016;temp:13;umid:074;
+
+Para um exemplo prático, veja na pasta
+"/como deve ser", o arquivo deve ser
+como o "log.txt" é.  
+
+Obrigado, caso tenha uma dúvida, envie um email para:
+davi.hd@hotmail.com
