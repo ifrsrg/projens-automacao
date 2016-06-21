@@ -1,20 +1,10 @@
     Update de Desenvolvimento
 
-  Avancei o trabalho em si, como
-versão final, porém ainda está em
-fase beta.
-  Foi exigido por mim, a forma
-de como deverão ser os arquivos
-"log.txt" que sairão do Arduino. 
-  Confira mais nos arquivos recentes
-do trabalho.
-  Também aguardo um Dead End para
-me situar em relação ao tempo e custo
-de produção em massa.
-  
-  Até mais e não esqueça:
-	Sempre confira o "update.txt"
-  fui
+  Hoje vi o esquema de como seria
+uma tabela ideal, na minha visão e na
+do Owner.
+  Organizei o projeto melhor, porém nada
+foi realiado, portanto...:
 
-Trabalho concluido: 15%
+Trabalho concluido: 15,2%
 Dead End: ???

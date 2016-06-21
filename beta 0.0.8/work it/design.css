@@ -1,0 +1,19 @@
+body
+{
+    background-color: #001212;
+    color: #00FFAA;
+    font-family: "Courier";
+}
+
+#h1
+{
+  font-size: 60px;
+  font-style: bold;
+}
+
+#h2
+{
+  color: #0099FF;
+  font-size: 25px;
+  font-style: italic;
+}
