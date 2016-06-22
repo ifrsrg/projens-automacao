@@ -1,10 +1,29 @@
     Update de Desenvolvimento
 
-  Hoje vi o esquema de como seria
-uma tabela ideal, na minha visão e na
-do Owner.
-  Organizei o projeto melhor, porém nada
-foi realiado, portanto...:
+  Está implementado o Ajax no "site", ele tenta
+executar o "testautolog.py", mas não tem Flask.
+  Contudo, estou enfrentando problemas com
+o Flask. Não sei se ele deve ser instalado
+na máquina como um programa, ou se eu devo
+apenas importar os arquivos no meu trabalho.
+  Quando dou o comando:
+    pip install Flask
+  A máquina diz que não está instalado "pip",
+  então me recomenda o comando:
+    sudo apt-get install python-pip
+  Eu o reproduzo e a máquina diz:
+    E: Não foi possível obter trava /var/lib/dpkg/lock -
+    open (11: Recurso temporariamente indisponível)
+    E: Não foi possível obter acesso exclusivo ao directório
+    de administração (/var/lib/dpkg/), outro processo está a utilizá-lo?
+  Dentro da pasta do Flask, há um "setup.py". Quando o executo
+dá erro de sintaxe, parece. Não executa.
 
-Trabalho concluido: 15,2%
+    Porém, eu sei o quê devo fazer quando ter Flask, então...
+  + 0,1%!
+    Certamente que sim, resolverei isso, a não ser que, o Boss seja
+  mais astuto e me dê uma ideia.
+    Obrigado.
+
+Trabalho concluido: 15,3%
 Dead End: ???

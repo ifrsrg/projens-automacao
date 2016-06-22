@@ -4,11 +4,23 @@
     <meta charset="utf-8">
     <link rel="stylesheet", href="design.css">
     <title>Autolog</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
   </head>
   <body>
     <center>
         <h1 id="h1">Autolog</h1>
         <h2 id="h2">Projeto em parceria com o curso técnico de Automação.</h2>
     </center>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $.ajax({
+        type: "POST",
+        url: "testautolog.py",
+        data: {param: " "}
+        }).done(function(o){
+        alert("OK");
+      });
+    });
+    </script>
   </body>
 </html>
