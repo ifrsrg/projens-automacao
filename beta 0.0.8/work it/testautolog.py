@@ -41,9 +41,11 @@ def main():
             "umid": umid[i]
         }
 
+    final_countdown = [final_data]
+
     with open("dumbster.json", "w") as f:
-        for i in range(len(final_data)):
-            json.dump(final_data[i], f)
+        for i in range(len(final_countdown)):
+            json.dump(final_countdown, f)
 
 if __name__ == "__main__":
     main()

@@ -1,29 +1,19 @@
     Update de Desenvolvimento
 
-  Está implementado o Ajax no "site", ele tenta
-executar o "testautolog.py", mas não tem Flask.
-  Contudo, estou enfrentando problemas com
-o Flask. Não sei se ele deve ser instalado
-na máquina como um programa, ou se eu devo
-apenas importar os arquivos no meu trabalho.
-  Quando dou o comando:
-    pip install Flask
-  A máquina diz que não está instalado "pip",
-  então me recomenda o comando:
-    sudo apt-get install python-pip
-  Eu o reproduzo e a máquina diz:
-    E: Não foi possível obter trava /var/lib/dpkg/lock -
-    open (11: Recurso temporariamente indisponível)
-    E: Não foi possível obter acesso exclusivo ao directório
-    de administração (/var/lib/dpkg/), outro processo está a utilizá-lo?
-  Dentro da pasta do Flask, há um "setup.py". Quando o executo
-dá erro de sintaxe, parece. Não executa.
+  Hoje revolvi algumas issues sobre JSON.
+A ideia agora é já ter o JSON na página, não
+com a atualização do usuário (que seria quando
+ele entrasse na página).
+  Ele entraria, o JS magicamente executaria o PY
+e assim, cuspiria o JSON.
+  Porém, vi que o JSON já poderia estar contido.
+Porque, parando para pensar, o "log.txt" seria de
+uma data X até Y. O usuário entraria na página,
+escolheria um intervalo de tempo de A até B,
+veria uma tabela e também gráficos dos dados em função
+do tempo.
+  Creio eu, que não seria atualizado todos os dias. Mas, acho
+que (ué? :V). Tudo tende a piorar.
 
-    Porém, eu sei o quê devo fazer quando ter Flask, então...
-  + 0,1%!
-    Certamente que sim, resolverei isso, a não ser que, o Boss seja
-  mais astuto e me dê uma ideia.
-    Obrigado.
-
-Trabalho concluido: 15,3%
+Trabalho concluido: 16.0%
 Dead End: ???
