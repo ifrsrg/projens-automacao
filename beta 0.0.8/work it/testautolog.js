@@ -4,23 +4,25 @@
 
   Assim, realizar os casos de testes finais.
 */
+metadata = [];
 
-/*
-for i in range(len(data)):
-      final_data[i] = {
-          "date": date[i],
-          "temp": temp[i],
-          "umid": umid[i]
-      }
+function readFile(callback) {
+  var rawFile = new XMLHttpRequest();
+  rawFile.overrideMimeType("application/json");
+  rawFile.open("GET", "dumbster.json", true);
+  rawFile.onreadystatechange = function () {
+    if ((rawFile.readyState === 4)&&(rawFile.status == "200")) callback(rawFile.responseText);
+  }
+  rawFile.send(null);
+}
 
-  final_countdown = [final_data]
+function init() {
+  readFile(function(response) {
+    var data = JSON.parse(response);
+    metadata = data;
+  });
+}
 
-  with open("dumbster.json", "w") as f:
-      for i in range(len(final_countdown)):
-          json.dump(final_countdown, f)
+init();
 
-if __name__ == "__main__":
-  main()
-
-
-*/
+// Chrome ta bugado e eu sem net no pc

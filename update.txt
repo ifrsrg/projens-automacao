@@ -1,19 +1,13 @@
     Update de Desenvolvimento
 
-  Hoje revolvi algumas issues sobre JSON.
-A ideia agora é já ter o JSON na página, não
-com a atualização do usuário (que seria quando
-ele entrasse na página).
-  Ele entraria, o JS magicamente executaria o PY
-e assim, cuspiria o JSON.
-  Porém, vi que o JSON já poderia estar contido.
-Porque, parando para pensar, o "log.txt" seria de
-uma data X até Y. O usuário entraria na página,
-escolheria um intervalo de tempo de A até B,
-veria uma tabela e também gráficos dos dados em função
-do tempo.
-  Creio eu, que não seria atualizado todos os dias. Mas, acho
-que (ué? :V). Tudo tende a piorar.
+    Assim ó: Server Flask rodando tranquilamente, porém não sei fazer uma
+rota para minha "index.html", ou seja, mais uma issue :(
 
-Trabalho concluido: 16.0%
-Dead End: ???
+  * O Server irá pegar os arquivos "log.txt" da máquina do Maurício;
+  * Os arquivos DEVEM respeitar a formatação de acordo com as exigências;
+  * (veja o diretório "exigencias/" caso tenha dúvida)
+  * O Server também irá executar o "testautolog.py", assim convertendo
+  * para JSON e fazendo todos os paranauês do Front-End Carioca Bootstrapo.
+
+Trabalho concluido: 35.0%
+Dead End: (Diga, Márcio).

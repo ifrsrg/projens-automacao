@@ -1,14 +1,13 @@
 import sys
 import json
 
+# Falta Flask
 # http://sms.playstation.com/careers/127/senior-gameplay-programmer/
 
 # * "Design, implement, and maintain systems and tools to support gameplay
 # (animation, locomotion, navigation, combat, etc.)";
 # * "Write clear, maintainable, portable, and highly functional code";
 # * "Expertise in C and C++"
-
-# Why we should not lear C/C++ at IFRS?
 
 def main():
     source = open("log.txt")
@@ -45,7 +44,7 @@ def main():
 
     with open("dumbster.json", "w") as f:
         for i in range(len(final_countdown)):
-            json.dump(final_countdown, f)
+            json.dump(final_countdown[i], f)
 
 if __name__ == "__main__":
     main()

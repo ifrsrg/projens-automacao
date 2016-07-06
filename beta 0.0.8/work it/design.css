@@ -17,3 +17,21 @@ body
   font-size: 25px;
   font-style: italic;
 }
+
+#h3
+{
+  color: #FF0045;
+  font-size: 30px;
+}
+
+#canvas
+{
+  color: #00FFAA;
+  font-size: 10px;
+  background: #110011;
+  border: 2px solid;
+  text-align: left;
+  display: block;
+  border-radius: 50px;
+  border-color: #FF0045;
+}
