@@ -24,7 +24,7 @@ def main():
     for i in range(len(data)):
         date[i] = (data[i][(data[i].index(':'))+1: data[i].index(';')])
         temp[i] = float(data[i][(data[i].index(':', data[i].index(':')+1)+1): data[i].index(';', data[i].index(';')+1)])
-        umid[i] = float(data[i][(len(data[i])-5): (len(data[i])-2)])
+        umid[i] = float(data[i][(data[i].index('d', data[i].index('d')+2)+2): (len(data[i])-2)])
 
     for i in range(len(data)):
         print date[i]
