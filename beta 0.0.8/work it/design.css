@@ -24,14 +24,13 @@ body
   font-size: 30px;
 }
 
-#canvas
+#tabuleta
 {
   color: #00FFAA;
-  font-size: 10px;
+  font-size: 20px;
   background: #110011;
   border: 2px solid;
   text-align: left;
   display: block;
-  border-radius: 50px;
   border-color: #FF0045;
 }

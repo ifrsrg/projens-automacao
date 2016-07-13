@@ -21,8 +21,7 @@ function init() {
     var data = JSON.parse(response);
     metadata = data;
   });
+  return metadata;
 }
 
-init();
-
-// Chrome ta bugado e eu sem net no pc
+metadata = init();

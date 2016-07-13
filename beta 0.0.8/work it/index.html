@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <script type="text/javascript" src="testautolog.js"></script>
     <link rel="stylesheet", href="design.css">
     <title>Autolog</title>
-    <script type="text/javascript" src="testautolog.js"></script>
   </head>
   <body>
     <center>
@@ -14,11 +14,27 @@
     </center>
     <br>
     <center>
-      <canvas id="canvas" width="300" height="(metadata.length*100)">
-        <script type="text/javascript">
-          //TODO Ver com o Carioca uma forma de printar na canvas, tipo tabela.
-        </script>
-      </canvas>
+      <table id="tabuleta" width="500px" border="1" title="Table">
+        <tr>
+          <th>Data</th>
+          <th>Temperatura</th>
+          <th>Umidade</th>
+        </tr>
+        <tr>
+          <td id="daten">
+              <script type="text/javascript">
+                for (var i = 0; i < metadata.length; i++) {
+                  console.log(metadata[i].date);
+                  console.log(metadata[i].temp);
+                  console.log(metadata[i].umid);
+                }
+              </script>
+          </td>
+          <td id="temp">  </td>
+          <td id="umid">  </td>
+        </tr>
+
+      </table>
     </center>
   </body>
 </html>
