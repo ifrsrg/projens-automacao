@@ -1,16 +1,13 @@
     Update de Desenvolvimento
 
-    Server Flask rodando tranquilamente, porém sem CSS.
-Me recomendaram usar Bootstrap, então, acho que esse problema
-é simples.
-    Porém, o grande problema, é o metadata! A página não lê ele para
-printar. Devemos tratar pessoalmente. Avise-me quando leres isso.
+    OLHA SÓ:
+      MUITOS PROBLEMAS:
+        * SERVIDOR PYTHON NÃO RECONHECE ALGUNS ARQUIVOS (Como CSS, JS, JSON);
+        * PRECISO DE UMA MANEIRA MELHOR PARA EXIBIR O CONTEÚDO NA TABELA;
+        * SABER COMO FAZER PARA O SERVIDOR RODAR O PYTHON QUE FAZ O JSON;
+        * E QUANDO É O PRAZO FINAL;
+      END
+    END
 
-    * Falta fazer a tabela;
-    * Fazer o input do usuário do intervalo de tempo;
-    * Fazer gráficos de acordo com o intervalo de tempo;
-    * Pegar os log.txt do Maurício com o Server PYTHON;
-    * Falta morrer tbm;
-
-Trabalho concluido: 43.27%
-Dead End: (Diga, Márcio).
+Trabalho concluido: 43.37%
+Dead End: (Diga, Márcio PF!).

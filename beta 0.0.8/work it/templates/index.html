@@ -2,15 +2,17 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <script type="text/javascript" src="srcs/testautolog.js"></script>
-    <link rel="stylesheet", href="srcs/design.css">
+    <script type="text/javascript" src="dumbster.json"></script>
+    <script type="text/javascript" src="dataCatcher.js"></script>
+    <script type="text/javascript" src="printer.js"></script>
+    <link rel="stylesheet", href="design.css">
     <title>Autolog</title>
   </head>
   <body>
-    <center>
+    <center>s
         <h1 id="h1">Autolog</h1>
         <h2 id="h2">Projeto em parceria com o curso técnico de Automação.</h2><br>
-        <h3 id="h3">Tabela</h3>
+        <h3 id="h3">Tabuleta</h3>
     </center>
     <br>
     <center>
@@ -21,19 +23,10 @@
           <th>Umidade</th>
         </tr>
         <tr>
-          <td id="daten">
-              <script type="text/javascript">
-                for (var i = 0; i < metadata.length; i++) {
-                  console.log(metadata[i].date);
-                  console.log(metadata[i].temp);
-                  console.log(metadata[i].umid);
-                }
-              </script>
-          </td>
-          <td id="temp">  </td>
-          <td id="umid">  </td>
+          <td id="daten"> <script type="text/javascript" > oi = document.getElementById("daten").innerHTML = printDate(); </script> </td>
+          <td id="temp"> <script type="text/javascript" > oi = document.getElementById("temp").innerHTML = printTemp(); </script> </td>
+          <td id="umid"> <script type="text/javascript" > oi = document.getElementById("umid").innerHTML = printUmid(); </script> </td>
         </tr>
-
       </table>
     </center>
   </body>
