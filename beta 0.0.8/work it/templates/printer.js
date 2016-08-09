@@ -1,17 +1,17 @@
 function printDate() {
-  var printBox = []
-  for (var i = 0; i < metadata.length; i++) printBox[i] = (metadata[i].date + "<br>");
-  return printBox;
+  for (var i = 0; i < metadata.length; i++) {
+    document.writeln(metadata[i].date + "<br>");
+  }
 }
 
 function printTemp() {
-  var printBox = []
-  for (var i = 0; i < metadata.length; i++) printBox[i] = (metadata[i].temp + "<br>");
-  return printBox;
+  for (var i = 0; i < metadata.length; i++) {
+    document.writeln(metadata[i].temp + "<br>");
+  }
 }
 
 function printUmid() {
-  var printBox = []
-  for (var i = 0; i < metadata.length; i++) printBox[i] = (metadata[i].umid + "<br>");
-  return printBox;
+  for (var i = 0; i < metadata.length; i++) {
+    document.writeln(metadata[i].umid + "<br>");
+  }
 }
