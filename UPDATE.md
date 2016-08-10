@@ -6,8 +6,8 @@ com o Owner e com o Espíndola sobre o quê eu tenho feito e como prosseguiremos
 
 # Ex (Constatações afirmativas):
 
-    * O PYTHON SERVER está com problemas (não lê JS, JSON, CSS, ...);
-    * O PYTHON SERVER tem que executar PYTHON "JSON" (o que cria o JSON);
-    * Implementar gráficos (blz isso até);
+* O PYTHON SERVER está com problemas (não lê JS, JSON, CSS, ...);
+* O PYTHON SERVER tem que executar PYTHON "JSON" (o que cria o JSON);
+* Implementar gráficos (blz isso até);
 
 * Trabalho concluido: 43.5%;
