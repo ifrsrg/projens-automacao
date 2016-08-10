@@ -27,9 +27,9 @@ def main():
         umid[i] = float(data[i][(data[i].index('d', data[i].index('d')+2)+2): (len(data[i])-2)])
 
     for i in range(len(data)):
-        print date[i]
-        print temp[i]
-        print umid[i]
+        print (date[i] == date[i])
+        print (temp[i] == temp[i])
+        print (umid[i] == umid[i])
 
     final_data = [x for x in range(num_size)]
 
@@ -42,7 +42,7 @@ def main():
 
     final_countdown = [final_data]
 
-    with open("dumbster.json", "w") as f:
+    with open("static/dumbster.json", "w") as f:
         for i in range(len(final_countdown)):
             json.dump(final_countdown[i], f)
 
