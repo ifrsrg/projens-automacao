@@ -1,13 +1,8 @@
+from werkzeug.utils import secure_filename
+import os
 import sys
+from flask import *
 import json
-
-# Falta Flask
-# http://sms.playstation.com/careers/127/senior-gameplay-programmer/
-
-# * "Design, implement, and maintain systems and tools to support gameplay
-# (animation, locomotion, navigation, combat, etc.)";
-# * "Write clear, maintainable, portable, and highly functional code";
-# * "Expertise in C and C++"
 
 def main():
     source = open("log.txt")
@@ -46,5 +41,17 @@ def main():
         for i in range(len(final_countdown)):
             json.dump(final_countdown[i], f)
 
+
+app = Flask(__name__)
+
+@app.route("/")
+def index():
+    return render_template("index.html")
+
+@app.errorhandler(404)
+def error404():
+    return render_template("404.html")
+
 if __name__ == "__main__":
     main()
+    app.run()
