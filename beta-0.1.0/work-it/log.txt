@@ -1,6 +1,2 @@
 date:15/06/2016;temp:05;umid:100;
 date:16/06/2016;temp:14;umid:082;
-date:17/06/2016;temp:13;umid:074;
-date:23/06/2016;temp:13;umid:100;
-date:24/06/2016;temp:15;umid:087;
-date:25/12/2000;temp:-5;umid:99.598;

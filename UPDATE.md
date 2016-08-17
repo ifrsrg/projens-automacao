@@ -1,13 +1,11 @@
 # Update de Desenvolvimento:
 
-  Hoje parece que não teve nada porque as issues me estacaram :( ,
-mas confira abaixo uma boa constatação delas. Além disso, preciso falar
-com o Owner e com o Espíndola sobre o quê eu tenho feito e como prosseguiremos.
+  Hoje foi um dia bem decisivo. Vi o quê devo fazer:
 
-# Ex (Constatações afirmativas):
+# Taí ó:
 
-* O PYTHON SERVER está com problemas (não lê JS, JSON, CSS, ...);
-* O PYTHON SERVER tem que executar PYTHON "JSON" (o que cria o JSON);
-* Implementar gráficos (blz isso até);
+* Coletar o intervalo de tempo e fazer a tabela em outra página html;
+* Fazer os gráficos;
+* Pegar o "log.txt" da máquina do Maurício;
 
-* Trabalho concluido: 43.5%;
+* Trabalho concluido: 50.5%;
