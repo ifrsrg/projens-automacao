@@ -1,11 +1,12 @@
 # Update de Desenvolvimento:
 
-  Hoje foi um dia bem decisivo. Vi o quê devo fazer:
+  Hoje foi bem produtivo, eu presumo. O ambiente está armado para
+realizarmos as etapas finais. São elas:
 
-# Taí ó:
+* Construir a tabelas e os gráficos de acordo com a entrada do usuário;
+* Adaptar o leitor de dados para a máquina do Maurício;
+* Falar com Espíndola;
+* Falar com Maurício;
+* Suicídio;
 
-* Coletar o intervalo de tempo e fazer a tabela em outra página html;
-* Fazer os gráficos;
-* Pegar o "log.txt" da máquina do Maurício;
-
-* Trabalho concluido: 50.5%;
+* Trabalho concluido: 53.5%;
