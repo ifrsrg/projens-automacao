@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "maBoy";
+  src: url("http://localhost:5000/static/cons.ttf");
+}
+
+body {
+  font-family: "maBoy";
+  background-color: #001212;
+  color: #00FF88;
+}
+
+#h1 {
+  font-size: 60px;
+  font-style: bold;
+}
+
+#h2 {
+  color: #0099FF;
+  font-size: 25px;
+  font-style: italic;
+}
+
+#h3 {
+  color: #00FF88;
+  font-size: 30px;
+}
+
+#start {
+  background-color: #001110;
+  color: #00FF88;
+  border-radius: 2px solid;
+  border-color: #00FF88;
+}
+
+#finish {
+  background-color: #001110;
+  color: #00FF88;
+  border-radius: 2px solid;
+  border-color: #00FF88;
+}
+
+#submit {
+  background-color: #001110;
+  color: #00FF88;
+  border-radius: 2px solid;
+  border-color: #00FF88;
+}

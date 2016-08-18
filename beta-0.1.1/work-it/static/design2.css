@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "maBoy";
+  src: url("http://localhost:5000/static/cons.ttf");
+}
+
+body {
+  font-family: "maBoy";
+  background-color: #001212;
+  color: #00FF88;
+}
+
+#tabuleta {
+  color: #00FF88;
+  font-size: 20px;
+  background: #110011;
+  border: 2px solid;
+  text-align: left;
+  display: block;
+  border-color: #FF0045;
+}
