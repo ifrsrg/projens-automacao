@@ -1,12 +1,17 @@
 # Update de Desenvolvimento:
 
-  Hoje foi bem produtivo, eu presumo. O ambiente está armado para
-realizarmos as etapas finais. São elas:
+  Hoje não foi muito produtivo mesmo. Feiquei tretando com as chaves dos
+laboratóriose quando tive tempo para desenvolver, tretei com o Date do JS.
 
-* Construir a tabelas e os gráficos de acordo com a entrada do usuário;
-* Adaptar o leitor de dados para a máquina do Maurício;
-* Falar com Espíndola;
+# Poderia ser mais simples:
+* Eu entro com algo tipo: "01/08/2016" dae cria um objeto com dia 01; mes:08: ano:2016;
+
+  Se não tiver solução mais simples mesmo, eu crio o objeto então (aguardo resposta);
+
+# TODO:
+* Reunião para combinarmos certinho o que deverá ser feito por cada pessoa (MPCT);
+* Falar com Espíndola sobre o desenvolvimento;
 * Falar com Maurício;
-* Suicídio;
+* Reunião Jefferson/Maurício/Espíndola/Márcio;
 
-* Trabalho concluido: 53.5%;
+* Trabalho concluido: 53.6%;
