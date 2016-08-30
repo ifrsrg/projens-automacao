@@ -48,6 +48,10 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
+@app.route("/table")
+def table():
+    return render_template("table.html")
+
 @app.errorhandler(404)
 def error404():
     return render_template("404.html")
