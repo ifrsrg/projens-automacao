@@ -25,4 +25,11 @@ function doIT() {
 
   window.open("http://localhost:5000/table");
 
+  /*function getStart() {
+    return s;
+  }
+
+  function getFinal() {
+    return f;
+  }*/
 }

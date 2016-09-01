@@ -1,3 +1,4 @@
+
 (function() {
     var tbody = document.querySelector('tbody');
     console.log(tbody);
@@ -15,6 +16,10 @@
     }
 
     readTextFile("/static/dumbster.json", function(text) {
+        /*console.log(getStart());
+        console.log(getFinal());
+        */
+
         var data = JSON.parse(text);
 
         for (var i = 0; i < data.length; i++) {
