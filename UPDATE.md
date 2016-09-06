@@ -1,7 +1,8 @@
 # Update de Desenvolvimento:
 
   Não sei passar uma variável de um arquivo JS para outro. Procurei na Internet e não
-achei.
+achei. Realmente preciso passar um objeto de um JS para outro, caso contrário
+não funcionará.
 
 # TODO:
 
