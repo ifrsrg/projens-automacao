@@ -48,7 +48,7 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-@app.route("/table")
+@app.route("/table?initial=A&final=B")
 def table():
     return render_template("table.html")
 

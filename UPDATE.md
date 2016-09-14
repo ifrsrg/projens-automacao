@@ -1,8 +1,12 @@
 # Update de Desenvolvimento:
 
-  Não sei passar uma variável de um arquivo JS para outro. Procurei na Internet e não
-achei. Realmente preciso passar um objeto de um JS para outro, caso contrário
-não funcionará.
+  Deu ruim na hora de passar as variáveis tudo por url :(
+
+  200% Sad
+
+  ps. Eu sei que estou passando objeto e nem com variável simples funciona.
+
+  Devo ter esquecido alguma coisa.
 
 # TODO:
 

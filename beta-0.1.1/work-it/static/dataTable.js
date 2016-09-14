@@ -1,5 +1,3 @@
-/* Uma espécie de objeto foi implementado :) */
-
 function Daten(string) {
   this.day = function() {return parseInt(string.substring(0, 2));}
   this.month = function() {return parseInt(string.substring(3, 5))};
@@ -23,13 +21,5 @@ function doIT() {
   console.log(f.month());
   console.log(f.year());
 
-  window.open("http://localhost:5000/table");
-
-  /*function getStart() {
-    return s;
-  }
-
-  function getFinal() {
-    return f;
-  }*/
+  window.open("http://localhost:5000/table?initial=" + s + "&final=" + f);
 }
