@@ -21,5 +21,8 @@ function doIT() {
   console.log(f.month());
   console.log(f.year());
 
-  window.open("http://localhost:5000/table?initial=" + s + "&final=" + f);
+  var s_assembly = s.day() + '/' + s.month() + '/' + s.year();
+  var f_assembly = f.day() + '/' + f.month() + '/' + f.year();
+
+  window.open("http://localhost:5000/table?initial="+s_assembly+"&final="+f_assembly);
 }

@@ -41,15 +41,18 @@ def main():
         for i in range(len(final_countdown)):
             json.dump(final_countdown[i], f)
 
-
 app = Flask(__name__)
 
 @app.route("/")
 def index():
     return render_template("index.html")
 
+A = ""
+B = ""
 @app.route("/table?initial=A&final=B")
 def table():
+    print A
+    print B
     return render_template("table.html")
 
 @app.errorhandler(404)

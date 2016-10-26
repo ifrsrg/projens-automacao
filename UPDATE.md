@@ -1,17 +1,20 @@
 # Update de Desenvolvimento:
 
-  Deu ruim na hora de passar as variáveis tudo por url :(
+  Depois de meio milhão de anos sem upar algo, uparei QUE NÃO CONSIGO
+PASSAR AS VARIÁVEL TUDO DE UM LADO PRO OUTRO:
 
-  200% Sad
+  * Do JS pro Server;
+  * Do Server pra Tabela;
 
-  ps. Eu sei que estou passando objeto e nem com variável simples funciona.
+  Tá impossível. DESKTOP > WEB, JFRAME > ALL, SDDS JAVA ;-;
 
-  Devo ter esquecido alguma coisa.
+  "Web apenas serve pro cara BAIXAR um programa DESKTOP"
+                                      - HEREGE, 2016
 
 # TODO:
 
-* Terminar a relação entre datas;
-* Fazer os gráficos;
-* Saber como pegar os dados na máquina do Maurício;
+* Terminar a relação entre datas; * NÃO CONSIGO
+* Fazer os gráficos; * OLHA AÍ, AINDA FALTA ISSO
+* Saber como pegar os dados na máquina do Maurício; * NÃO É MAIS NECESSÁRIO
 
 * Trabalho concluido: 58.7%;
