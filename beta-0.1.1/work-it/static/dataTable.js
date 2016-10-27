@@ -11,16 +11,6 @@ function doIT() {
   var s = new Daten(init);
   var f = new Daten(end);
 
-  console.log(s.day());
-  console.log(s.month());
-  console.log(s.year());
-
-  console.log();
-
-  console.log(f.day());
-  console.log(f.month());
-  console.log(f.year());
-
   var s_assembly = s.day() + '/' + s.month() + '/' + s.year();
   var f_assembly = f.day() + '/' + f.month() + '/' + f.year();
 

@@ -47,12 +47,12 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-A = ""
-B = ""
-@app.route("/table?initial=A&final=B")
+@app.route("/table")
 def table():
-    print A
-    print B
+    initial = request.args.get('initial', '')
+    final = request.args.get('final', '')
+    print initial
+    print final
     return render_template("table.html")
 
 @app.errorhandler(404)
