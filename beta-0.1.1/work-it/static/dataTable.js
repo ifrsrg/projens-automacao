@@ -1,18 +1,9 @@
-function Daten(string) {
-  this.day = function() {return parseInt(string.substring(0, 2));}
-  this.month = function() {return parseInt(string.substring(3, 5))};
-  this.year = function() {return parseInt(string.substring(6, 10))};
-}
-
 function doIT() {
-  var init = document.getElementById('start').value;
-  var end = document.getElementById('finish').value;
+  var init = document.getElementById('start').value.split('/');
+  var end = document.getElementById('finish').value.split('/');
 
-  var s = new Daten(init);
-  var f = new Daten(end);
+  init = init[0] + '-' + init[1] + '-' + init[2];
+  end = end[0] + '-' + end[1] + '-' + end[2];
 
-  var s_assembly = s.day() + '/' + s.month() + '/' + s.year();
-  var f_assembly = f.day() + '/' + f.month() + '/' + f.year();
-
-  window.open("http://localhost:5000/table?initial="+s_assembly+"&final="+f_assembly);
+  window.open("http://localhost:5000/table?initial="+init+"&final="+end);
 }

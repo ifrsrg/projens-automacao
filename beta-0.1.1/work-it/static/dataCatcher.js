@@ -16,11 +16,15 @@
     }
 
     readTextFile("/static/dumbster.json", function(text) {
-        /*console.log(getStart());
-        console.log(getFinal());
-        */
 
         var data = JSON.parse(text);
+
+        var aloha = window.location.href.split('/');
+        var mahalo = aloha[3].split('?');
+        var initial = mahalo[1].split('=')[1].split('&')[0];
+        var final = mahalo[1].split('=')[2];
+
+        console.log(initial + " // " + final);
 
         for (var i = 0; i < data.length; i++) {
             var tr = document.createElement('tr');
@@ -31,14 +35,16 @@
 
             var td = document.createElement('td');
             tr.appendChild(td);
-            td.innerText = data[i].umid;
+            td.innerText = data[i].temp;
 
             var td = document.createElement('td');
             tr.appendChild(td);
-            td.innerText = data[i].temp;
+            td.innerText = data[i].umid;
 
             tbody.appendChild(tr);
         }
+
+
 
     });
 }());
