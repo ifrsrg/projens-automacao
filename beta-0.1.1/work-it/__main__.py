@@ -1,8 +1,10 @@
 from werkzeug.utils import secure_filename
 import os
 import sys
-from flask import *
+import time
 import json
+from flask import *
+from datetime import date
 
 def main():
     source = open("log.txt")
@@ -51,8 +53,21 @@ def index():
 def table():
     initial = request.args.get('initial', '')
     final = request.args.get('final', '')
-    print initial
-    print final
+
+    print "initial: ", initial
+    print "final: ", final
+
+    aloha = initial.split("-")
+    mahalo = final.split("-")
+
+    iniD = date(int(aloha[0]), int(aloha[1]), int(aloha[2]))
+    finD = date(int(mahalo[0]), int(mahalo[1]), int(mahalo[2]))
+
+    while iniD < finD:
+        iniD = date.fromordinal(iniD.toordinal()+1)
+        print iniD
+        pass
+
     return render_template("table.html")
 
 @app.errorhandler(404)

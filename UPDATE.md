@@ -1,12 +1,15 @@
 # Update de Desenvolvimento:
 
-  FINALMENTE FIZ ALGO! VALEU MÁRCIO! Falta apenas fazer algumas
-lógicas para que a comunicação servidor/site esteja completa!
+* Ae!
+  Nogócio está indo bem, até o momento. Preciso falar com o Márcio
+para saber como fazer a relação de printar corretamente as datas.
+
+* A lógica das datas está 'completa'
 
 # TODO:
 
-* Terminar comunicação;
-* Lógica para o intervalo de datas;
-* Fazer os gráficos;
-* Mudar o design;
-* Trabalho concluido: 68.8%;
+* Terminar comunicação; (V)
+* Lógica para o intervalo de datas; (V)
+* Fazer os gráficos; (X)
+* Mudar o design; (X)
+* Trabalho concluido: 74.3%; ++

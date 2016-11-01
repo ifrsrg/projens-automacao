@@ -26,6 +26,14 @@
 
         console.log(initial + " // " + final);
 
+        var iniD = new Date(initial);
+        var finD = new Date(final);
+
+        while (iniD < finD) {
+          iniD.setDate(iniD.getDate()+1);
+          console.log(iniD);
+        }
+
         for (var i = 0; i < data.length; i++) {
             var tr = document.createElement('tr');
 
@@ -43,8 +51,5 @@
 
             tbody.appendChild(tr);
         }
-
-
-
     });
 }());
