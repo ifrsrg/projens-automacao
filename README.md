@@ -1,12 +1,12 @@
 # INFO Projens/Automação
 
-Projeto em parceria com o curso Técnico em Automação.
+  Projeto em parceria com o curso Técnico em Automação.
 Bolsista/Desenvolvedor: Davi Ferreira
 Owner: Maurício Ortiz (Automação)
 
 # Conceito geral:
 
-Com o intuito de sermos reconhecidos pelo
+  Com o intuito de sermos reconhecidos pelo
 INMET (Instituto Nacional de Meteorologia),
 construiremos uma Mini-Estação Meteorológica
 como as demais por outras instituições.
